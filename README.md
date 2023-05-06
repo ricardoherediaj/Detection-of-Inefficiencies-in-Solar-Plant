@@ -1,0 +1,1 @@
+# Detection-of-Inefficiencies-in-Solar-Plant
