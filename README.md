@@ -35,19 +35,19 @@ In our case, the entities that we have in the granularity of the data are:
 * Plants: there are 2
 * Inverters: several per plant
 * Only one irradiation sensor per plant
-* Only one room temperature sensor per floor
-* Only one module temperature sensor per floor
+* Only one room temperature sensor per plant
+* Only one module temperature sensor per plant
 
 This conditions what we will be able to know, for example, if an inverter in a plant has lower performance than expected, but we will not know which array, panel or module may be causing it.
 
 ## SEED QUESTIONS
 
-Having understood the levers, kpis and entities, we can now ask the seed questions:
+Having understood the levers, KPIs and entities, we can now ask the seed questions:
 
 About irradiation:
 
 * Is there enough irradiation every day?
-* Is it similar on both floors?
+* Is it similar on both plants?
 * How is your hourly distribution?
 * How is it related to ambient temperature and module temperature?
 
@@ -62,7 +62,7 @@ About the DC generation:
 
 * What is the relationship between irradiation and DC generation?
 * Is it ever affected by ambient or module temperature?
-* Is it similar on both floors?
+* Is it similar on both plants?
 * How is it distributed throughout the day?
 * Is it constant throughout the days?
 * Is it constant in all inverters?
@@ -71,7 +71,7 @@ About the DC generation:
 About AC generation:
 
 * What is the relationship between DC and AC generation?
-* Is it similar on both floors?
+* Is it similar on both plants?
 * How is it distributed throughout the day?
 * Is it constant throughout the days?
 * Is it constant in all inverters?
